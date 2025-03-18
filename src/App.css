@@ -1,0 +1,363 @@
+/* General Styles */
+.img-fluid{
+  border-radius: 50px 50px 60px 70px;
+}
+.social{
+  font-size: 3.5rem;
+  color: darkblue;
+}
+.socials{
+  font-size: 3.5rem;
+  color:black
+}
+.social:hover{
+  color: brown;
+}
+.socials:hover{
+  color: brown;
+}
+.typing {
+  color: crimson;
+
+}
+.col-md-7 h1 {
+  padding-top: 10%;
+  margin-left: 10px;
+  font-family: sans-serif;
+  font-size: 50px;
+  font-style: italic;
+  margin: 20px 30px 35px 30px;
+}
+.col-md-7 h4{
+  font-family: sans-serif;
+  font-style: italic;
+  line-height: 2;
+}
+
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.blink {
+  animation: blink 2s infinite;
+  /* Adjust speed by changing 1s */
+  font-weight: bold;
+  color: brown;
+  /* Change color if needed */
+}
+
+.navbar {
+  cursor: pointer;
+  font-size: 20px;
+  font-style: italic;
+
+
+}
+
+.navbar-nav .nav-link:hover {
+  color: brown !important;
+  /* Ensure it overrides Bootstrap styles */
+  transition: color 0.3s ease-in-out;
+  /* Smooth transition */
+  font-style: italic;
+}
+
+.about {
+  background-color: aliceblue;
+  min-height: 80vh;
+  border-radius: 20px;
+  text-align: justify;
+  padding: 20px;
+  margin-bottom: 40px; /* Prevents overlap */
+}
+
+.home {
+  background-color: aliceblue;
+  min-height: 60vh;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 50px;
+}
+
+/* Skills Section */
+#skills {
+  padding: 50px 0;
+  background-color:aliceblue;
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 20px;
+}
+
+.head {
+  color: darkblue;
+  font-style: oblique;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+
+/* Skill Cards */
+.skill-card {
+  border-radius: 15px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  margin-bottom: 20px; /* Prevents overlap */
+  height: 250px; /* Ensures uniform height */
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Skill Icons */
+.skill-icon, .skill-icons, .skill-ico, .skill-ic, .skill-i, .skill, .skil {
+  font-size: 5rem;
+}
+
+.skill-icon {
+  color: #3776AB; /* Python Blue */
+}
+.skill-icons {
+  color: deepskyblue;
+}
+.skill-ico {
+  color: darkmagenta;
+}
+.skill-ic {
+  color: darkgoldenrod;
+}
+.skill-i {
+  color: chocolate;
+}
+.skill {
+  color: blue;
+}
+.skil {
+  color: aliceblue;
+}
+
+/* Button Styling */
+.download-btn {
+  width: 90%;
+  max-width: 250px;
+  padding: 10px 20px;
+  text-align: center;
+  font-style: oblique;
+  white-space: nowrap;
+  font-size: 20px;
+}
+.download-btn:hover{
+  background-color: crimson;
+}
+
+
+.about-text {
+  word-break: break-word;
+  /* Prevents text overflow */
+  line-height: 2.5;
+  font-size: 20px;
+  text-align: justify;
+  padding-left: 8%;
+  padding-right: 8%;
+  font-family: sans-serif;
+  font-style: italic;
+  font-weight: 6px;
+
+}
+
+/* Image Container */
+.image-container {
+  width: 100%;
+  max-width: 350px;
+  max-height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color:cornflowerblue;
+  border-radius: 50%; 
+
+}
+
+
+/* Responsive Adjustments */
+@media (max-width: 992px) {
+  .about {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  .skill-card {
+    height: auto; /* Adjust height dynamically */
+  }
+}
+
+@media (max-width: 768px) {
+  .about-text {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+
+  .skill-icon,
+  .skill-icons,
+  .skill-ico,
+  .skill-ic,
+  .skill-i,
+  .skill,
+  .skil {
+    font-size: 4rem; /* Reduce icon size for smaller screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .home {
+    margin: 20px;
+  }
+
+  .skill-card {
+    width: 100%; /* Ensure full width */
+    height: auto;
+  }
+
+  .download-btn {
+    max-width: 180px;
+    font-size: 12px;
+    padding: 8px 15px;
+  }
+
+  .image-container {
+    max-width: 250px;
+  }
+}
+/* education */
+.education {
+  background-color:black;
+  min-height: 80vh;
+  border-radius: 20px;
+  text-align: justify;
+  padding: 20px;
+  color: aliceblue;
+  margin-bottom: 40px; /* Prevents overlap */
+}
+.heads{
+  color:crimson;
+  font-style: oblique;
+  font-size: 32px;
+  font-weight: bold;
+}
+/* .contact {
+  background-color: aliceblue;
+  min-height: 80vh;
+  border-radius: 20px;
+  text-align: justify;
+  padding: 20px;
+  margin-bottom: 40px; 
+} */
+.education-icon{
+  color: red;
+  font-family: Gill sans;
+  font-size: 30px;
+}
+.education-item h3{
+line-height: 1.6;
+padding-left: 20px;
+font-family: sans-serif;
+font-style:italic;
+}
+.year{
+  margin-left: 38%;
+  margin-bottom: 10px;
+}
+.years{
+  margin-left: 59%;
+  margin-bottom: 10px;
+}
+.yearss{
+  margin-left: 65%;
+  margin-bottom: 10px;
+}
+.contact-container {
+  text-align: center;
+  background-color: aliceblue;
+  min-height: 80vh;
+  border-radius: 20px;
+  text-align: justify;
+  padding: 20px;
+  margin-bottom: 40px; /* Prevents overlap */
+}
+
+.contact-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  font-style: oblique;
+}
+
+.contact-boxes {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.contact-box {
+  background: #222;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+ 
+}
+.contact-box h3{
+  font-style: italic;
+}
+.contact-box p{
+  font-size: 20px;
+}
+
+.middle-box {
+  background: #444;
+  padding: 20px;
+  border-radius: 10px;
+  width: 220px;
+  margin: 30px auto 0;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+}
+.email-link{
+  font-size: 18px;
+  font-style: oblique;
+
+}
+@keyframes blinks {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.blinks {
+  animation: blink 4s infinite;
+  color: red; /* Change color if needed */
+}
+.foot{
+  font-family: sans-serif;
+  font-size: 20px;
+  
+}
+
+
+
