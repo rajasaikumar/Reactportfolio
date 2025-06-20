@@ -46,7 +46,7 @@ const Home = () => {
 
             </div>
             <div className="button-container">
-              <a href="/resume.pdf" download="SaiKumar_Resume.pdf" className="btn btn-primary mt-3 mx-3 download-btn">
+              <a href="/SAI_KUMAR_RAJA_RESUME.pdf" download="SAI KUMAR RAJA_RESUME.pdf" className="btn btn-primary mt-3 mx-3 download-btn">
                 Download Resume
               </a>
             </div>
