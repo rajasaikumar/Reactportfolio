@@ -22,23 +22,23 @@ const Contact = () => {
               <p>Click here to send a Mail</p>
             </p>
           </div>
-          <div className="contact-box">
+          <div className="contact-box ">
             <h3 className='blinks'>Phone</h3>
-            <p>+91 6309401182.</p>
+            <p className='mt-4 pt-3'>+91 6309401182.</p>
           </div>
         </div>
 
-        <div className="middle-box">
+        <div className="middle-box ">
           <h3>Get in Touch</h3>
           <p>Feel free to reach out for any inquiries!</p>
         </div>
         <div>
-  <footer>
-    <p className="text-white mt-5 py-3 bg-secondary foot">
-      © {new Date().getFullYear()} Sai Kumar. All rights reserved.
-    </p>
-  </footer>
-</div>
+          <footer>
+            <p className="text-white mt-5 py-3 bg-secondary foot ">
+              © {new Date().getFullYear()} Sai Kumar. All rights reserved.
+            </p>
+          </footer>
+        </div>
 
       </div>
     </section>

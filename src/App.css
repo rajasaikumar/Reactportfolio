@@ -278,7 +278,7 @@ padding-left: 20px;
 font-family: sans-serif;
 font-style:italic;
 }
-.year{
+/* .year{
   margin-left: 38%;
   margin-bottom: 10px;
 }
@@ -289,7 +289,41 @@ font-style:italic;
 .yearss{
   margin-left: 65%;
   margin-bottom: 10px;
+} */
+.education-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
+
+h2 {
+  margin-left: auto; /* Push the year to the right */
+  font-size: 1.2rem;
+}
+
+/* Adjust for medium screens */
+@media (max-width: 768px) {
+  .education-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  h2 {
+    margin-left: 0; /* Align year below the text */
+    margin-top: 5px;
+    font-size: 1rem;
+  }
+}
+
+/* Adjust for small screens */
+@media (max-width: 480px) {
+  h2 {
+    font-size: 0.9rem;
+    text-align: left;
+  }
+}
+
 .contact-container {
   text-align: center;
   background-color: aliceblue;
@@ -358,6 +392,7 @@ font-style:italic;
   font-size: 20px;
   
 }
+
 
 
 

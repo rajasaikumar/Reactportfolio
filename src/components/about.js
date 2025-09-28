@@ -1,6 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import { FaPython } from "react-icons/fa";
+import { Row, Col } from "react-bootstrap";
 
 const About = () => {
   return (
@@ -17,11 +16,6 @@ const About = () => {
               Seeking a position in a competitive environment that challenges me to push
               my boundaries and expand my knowledge in the field of computer science.
             </h5>
-            {/* <h5 className="about-text">
-              Seeking a position in a competitive environment that challenges me to push
-              my boundaries and expand my knowledge in the field of computer science.
-
-            </h5> */}
             <h5 className="about-text">
               I had completed my graduation in the stream of <strong>Computer Science and Engineering </strong> and later pursued<strong> Java Full Stack Development. </strong>
 
